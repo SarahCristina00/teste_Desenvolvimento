@@ -9,9 +9,8 @@ int main() {
     cout << "Informe uma frase: "<<endl;
     cin.getline(str, 100); 
 
-    int tamanho = strlen(str); // Tamanho da string
+    int tamanho = strlen(str); 
 
-    // Invertendo a string manualmente
     for (int i = 0; i < (tamanho / 2); i++) {
         char aux = str[i];
         str[i] = str[tamanho - i - 1];
