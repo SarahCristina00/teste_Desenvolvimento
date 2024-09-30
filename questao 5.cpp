@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring> // Para trabalhar com strings
+#include <cstring> 
 
 using namespace std;
 
